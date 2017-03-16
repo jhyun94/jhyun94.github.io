@@ -1,12 +1,23 @@
-body {
-  background-image: url("grey-background.jpeg");
+/* homepage */
+.main {
+  background-image: url("dark-room.jpg");
   background-size: cover;
-  color: #EDEBE7;
+  color: #151A2D;
+  height: 100vh;
 }
 
-/* homepage */
-
-
+.main .container {
+  padding-top: 100px;
+  max-width: 70vh;
+}
+.main h1 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.main p {
+  font-size: 18px;
+  text-align: center;
+}
 
 
 
