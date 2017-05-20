@@ -1,29 +1,23 @@
 /* homepage */
 .main {
-  background-image: url("dark-room.jpg");
+  background-image: url("mountain.jpg");
   background-size: cover;
-  color: #151A2D;
   height: 100vh;
+  color: #fff;
+  text-align: center;
 }
 
 .main .container {
-  padding-top: 100px;
-  max-width: 70vh;
-}
-.main h1 {
-  text-align: center;
-  padding-bottom: 40px;
-}
-.main p {
-  font-size: 18px;
-  text-align: center;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;
 }
 
+.description {
+  max-width: 600px;
+  margin: 150px auto;
+}
 
-
-
-/* projects */
-img {
-  height: 100px;
-  width: 100px;
+.projects {
+  height: 100vh;
 }
