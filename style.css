@@ -56,6 +56,10 @@ p {
   border-bottom: 1px solid gray;
 }
 
+.projects .row:last-child {
+  border-bottom: none;
+}
+
 .skills {
   list-style-type: none;
   padding-left: 0;
@@ -67,4 +71,8 @@ p {
   background-color: #FF2020;
   color: #fff;
   padding: 4px 10px;
+}
+
+.contact {
+  background-color: #F3F3F3;
 }
