@@ -39,11 +39,19 @@ p {
 .projects h1 {
   margin-top: 0;
 }
-
-.projects h1:hover {
+.projects a{
+  color: #000;
+}
+.projects a:hover {
   color: #FF2020;
   cursor: pointer;
+  text-decoration: none;
 }
+
+.projects a:visited {
+  color: #000;
+}
+
 .projects .row {
   border-bottom: 1px solid gray;
 }
