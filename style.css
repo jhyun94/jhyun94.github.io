@@ -19,10 +19,13 @@ html,body {
 
 .description {
   max-width: 600px;
-  margin: 150px auto;
+  margin-top: 25%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.projects {
+.projects img {
+  padding-top: 20px;
 }
 
 .projects .col-md-6{
