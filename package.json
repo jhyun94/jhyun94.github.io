@@ -1,0 +1,31 @@
+{
+  "name": "jhyun94.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhyun94/jhyun94.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhyun94/jhyun94.github.io/issues"
+  },
+  "homepage": "https://github.com/jhyun94/jhyun94.github.io#readme",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "materialize-css": "^0.100.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^4.10.2"
+  }
+}
