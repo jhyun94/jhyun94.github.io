@@ -1,4 +1,8 @@
+import TypeIt from 'typeit';
 
+new TypeIt('.typewriter', {
+    strings: ['Hi, my name is Jonathan Hyun', 'and i am a developer']
+});
 
 var canvas = document.getElementById('nokey'),
    can_w = parseInt(canvas.getAttribute('width')),
@@ -244,7 +248,7 @@ window.addEventListener('resize', function(e){
 
 function goMovie(){
     initCanvas();
-    initBalls(30);
+    initBalls(50);
     window.requestAnimationFrame(render);
 }
 goMovie();
@@ -272,6 +276,8 @@ canvas.addEventListener('mousemove', function(e){
     mouse_ball.y = e.pageY;
     // console.log(mouse_ball);
 });
+
+
 
 
 
