@@ -3,10 +3,6 @@
     box-sizing: border-box;
 }
 
-html, body{
-/*  background-color: #333;*/
-  font-family: 'Oswald', sans-serif;
-}
 
 .home {
   height: 100%;
@@ -30,6 +26,9 @@ canvas{
   align-items: center;
 }
 
+.col {
+  margin-bottom: 20px;
+}
 /*
 p {
   font-size: 16px;
