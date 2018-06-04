@@ -1,0 +1,118 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.home {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+
+}
+canvas{
+    background-color: #000;
+}
+
+.typewriter-wrap {
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  margin-bottom: 20px;
+}
+/*
+p {
+  font-size: 16px;
+}
+.main {
+  background-image: url("mountain.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;  
+}
+
+
+.description {
+  max-width: 600px;
+  margin-top: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects img {
+  padding-top: 20px;
+}
+
+.projects .col-md-6{
+  margin: 50px 0;
+}
+.projects h1 {
+  margin-top: 0;
+}
+.projects a{
+  color: #000;
+}
+.projects a:hover {
+  color: #FF2020;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.projects a:visited {
+  color: #000;
+}
+
+.projects .row {
+  border-bottom: 1px solid gray;
+}
+
+.projects .row:last-child {
+  border-bottom: none;
+}
+
+.skills {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.skills li {
+  display: inline;
+  background-color: #FF2020;
+  color: #fff;
+  padding: 4px 10px;
+}
+
+.contact {
+  background-color: #F3F3F3;
+  padding-bottom: 20px;
+}
+
+.contact h1 {
+  text-align: center;
+}
+
+.contact ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.icons {
+  font-size: 30px;
+}*/
